@@ -677,6 +677,7 @@ margin-bottom: 8px;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
+  display: block;
 }
 .modal-input:focus,
 .modal-input:hover {
