@@ -418,6 +418,9 @@ img {
 .footer-box {
   margin-right: 120px;
 }
+.footer-soc-box {
+  margin-right: 80px;
+}
 
 .footer_soc-list {
   display: flex;
@@ -446,7 +449,55 @@ img {
 .footer_soc-list .icon {
   fill: currentColor;
 }
+.footer-subc-title {
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
 
+  margin-bottom: 16px;
+}
+.footer-input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+}
+.footer-input::placeholder {
+  color: #fff;
+}
+.footer-form-fld {
+  display: flex;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subc-bth {
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+}
+.footer-subc-bth .icon {
+  margin-left: 16px;
+}
 .portfolio-section {
   padding: 96px 0 120px 0;
 }
