@@ -696,7 +696,7 @@ margin-bottom: 8px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
-.modal-area::placeholder {
+.modal-area {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
